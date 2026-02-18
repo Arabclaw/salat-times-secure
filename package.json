@@ -1,0 +1,57 @@
+{
+  "name": "@arabclaw/salat-times",
+  "version": "1.0.0",
+  "description": "Horaires de prière précis avec géolocalisation et toutes méthodes de calcul",
+  "main": "salat-times.js",
+  "bin": {
+    "salat-times": "./salat-times.js"
+  },
+  "scripts": {
+    "test": "node salat-times.js",
+    "audit": "npm audit --audit-level=moderate",
+    "audit-fix": "npm audit fix",
+    "security-check": "npm audit && echo '✅ Security check complete'"
+  },
+  "keywords": [
+    "islamic",
+    "prayer",
+    "salat",
+    "muslim",
+    "aladhan",
+    "qibla",
+    "hijri",
+    "arabic",
+    "openclaw"
+  ],
+  "author": "MDI <[email protected]>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "moment-timezone": "^0.5.45",
+    "moment-hijri": "^2.1.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "node-cache": "^5.1.2",
+    "table": "^6.8.1",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-plugin-security": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arabclaw/salat-times-secure"
+  },
+  "bugs": {
+    "url": "https://github.com/arabclaw/salat-times-secure/issues"
+  },
+  "homepage": "https://github.com/arabclaw/salat-times-secure#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "openclaw": {
+    "skills": ["./"]
+  }
+}
