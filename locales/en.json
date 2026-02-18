@@ -1,0 +1,93 @@
+{
+  "app": {
+    "name": "Prayer Times",
+    "tagline": "Accurate prayer times with geolocation"
+  },
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Sunrise",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha"
+  },
+  "labels": {
+    "next_prayer": "Next Prayer",
+    "in": "in",
+    "ago": "ago",
+    "tomorrow": "tomorrow",
+    "today": "today",
+    "location": "Location",
+    "method": "Method",
+    "direction": "Direction",
+    "distance": "Distance",
+    "qibla": "Qibla Direction",
+    "calendar": "Calendar",
+    "notifications": "Notifications",
+    "settings": "Settings"
+  },
+  "times": {
+    "hours": "hours",
+    "hour": "hour",
+    "minutes": "minutes",
+    "minute": "minute",
+    "seconds": "seconds",
+    "second": "second"
+  },
+  "messages": {
+    "prayer_in": "🕌 {prayer} prayer in {time}",
+    "prayer_now": "🕌 It's time for {prayer} prayer",
+    "location_not_set": "No location configured",
+    "location_set": "Location set: {location}",
+    "notifications_enabled": "Notifications enabled",
+    "notifications_disabled": "Notifications disabled",
+    "cache_cleared": "Cache cleared",
+    "config_updated": "Configuration updated",
+    "error_api": "API error: {error}",
+    "error_location": "Location error: {error}",
+    "success": "Success",
+    "failed": "Failed"
+  },
+  "directions": {
+    "N": "due north",
+    "NNE": "north-northeast",
+    "NE": "northeast",
+    "ENE": "east-northeast",
+    "E": "due east",
+    "ESE": "east-southeast",
+    "SE": "southeast",
+    "SSE": "south-southeast",
+    "S": "due south",
+    "SSW": "south-southwest",
+    "SW": "southwest",
+    "WSW": "west-southwest",
+    "W": "due west",
+    "WNW": "west-northwest",
+    "NW": "northwest",
+    "NNW": "north-northwest"
+  },
+  "methods": {
+    "MWL": "Muslim World League",
+    "ISNA": "Islamic Society of North America",
+    "Egypt": "Egyptian General Authority",
+    "Makkah": "Umm Al-Qura, Makkah",
+    "Karachi": "University of Islamic Sciences, Karachi",
+    "Tehran": "Institute of Geophysics, Tehran",
+    "Jafari": "Shia Ithna-Ashari",
+    "Gulf": "Gulf Region",
+    "Kuwait": "Kuwait",
+    "Qatar": "Qatar",
+    "Singapore": "Singapore",
+    "UOIF": "Union of Islamic Organizations of France",
+    "Turkey": "Turkey",
+    "Russia": "Russia"
+  },
+  "help": {
+    "usage": "Usage: salat-times [options]",
+    "examples": "Examples:",
+    "example_1": "salat-times --city \"Paris\"",
+    "example_2": "salat-times --next",
+    "example_3": "salat-times --qibla",
+    "example_4": "salat-times --month"
+  }
+}
